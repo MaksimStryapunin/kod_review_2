@@ -12,7 +12,8 @@
 элемента стека считается значение его поля Data*/
 
 #include <iostream>
-using namespace std;
+//FIXME: (запрещено испольбзовать пространство имён std)
+//using namespace std;
 
 class Node {
 public:
@@ -28,67 +29,59 @@ private:
     Node* top; 
 
 public:
-    
     Stack() : top(nullptr) {}
-
-    //  для добавления элемента в стек
-    void push(int value) {
+    //FIXME: (нет деструктора)
+    ~Stack() : top(nullptr) { clearStack(); }
+    void push(int value) {//  для добавления элемента в стек
         Node* newNode = new Node(value); // Создаем новый узел
         newNode->next = top;             // Новый узел указывает на текущую вершину
         top = newNode;                   // Обновляем вершину стека
-        cout << "Элемент " << value << " добавлен в стек." << endl;
+        std::cout << "Элемент " << value << " добавлен в стек." << std::endl;
     }
-
-    // Метод для удаления элемента из стека
-    void pop() {
+    void pop() { // Метод для удаления элемента из стека
         if (top == nullptr) {            
-            cout << "Стек пуст! Невозможно удалить элемент." << endl;
+            std::cout << "Стек пуст! Невозможно удалить элемент." << std::endl;
             return;
         }
         Node* temp = top;                
         top = top->next;                 
-        cout << "Элемент " << temp->data << " удален из стека." << endl;
+        std::cout << "Элемент " << temp->data << " удален из стека." << std::endl;
         delete temp;                 
     }
-
-    
+    //FIXME (нет комментариев для функции)
     void print() {
         if (top == nullptr) {           
-            cout << "Стек пуст!" << endl;
+            std::cout << "Стек пуст!" << std::endl;
             return;
         }
         Node* current = top;            
-        cout << "Элементы стека: ";
+        std::cout << "Элементы стека: ";
         while (current != nullptr) {     
-            cout << current->data << " "; 
+            std::cout << current->data << " "; 
             current = current->next;    
         }
-        cout << endl;                  
+        std::cout << std::endl;                  
     }
-
-    
-    Node* getTop() {
+    //FIXME (нет комментариев для функции)
+    Node* getTop() {//вывести элемент top
         return top;
     }
-
-    
-    void clearStack() {
+    //FIXME (нет комментариев для функции)
+    void clearStack() {//очистить стек
         while (top != nullptr) {       
             Node* temp = top;            
             top = top->next;             
             delete temp;                 // Удаляем узел
         }
-        cout << "Стек очищен." << endl;
+        std::cout << "Стек очищен." << std::endl;
     }
-
-    
     friend void addElementAndPrintAddress(Stack& stack, int D);
 };
 
-
-void addElementAndPrintAddress(Stack& stack, int D) {
+//FIXME (нет комментариев для функции)
+void addElementAndPrintAddress(Stack& stack, int D) {//добавить элемент и вывести адрес
     stack.push(D);
-    cout << "Адрес новой вершины стека: " << stack.getTop() << endl;
+    std::cout << "Адрес новой вершины стека: " << stack.getTop() << std::endl;
 }
 
 int main() {
@@ -96,19 +89,19 @@ int main() {
     int choice, value;
 
     while (true) {
-        cout << "\nМеню:\n";
-        cout << "1. Добавить элемент в стек\n";
-        cout << "2. Удалить элемент из стека\n";
-        cout << "3. Вывести элементы стека\n";
-        cout << "4. Очистить стек\n";
-        cout << "5. Выйти\n";
-        cout << "Введите ваш выбор: ";
-        cin >> choice;
+        std::cout << "\nМеню:\n";
+        std::cout << "1. Добавить элемент в стек\n";
+        std::cout << "2. Удалить элемент из стека\n";
+        std::cout << "3. Вывести элементы стека\n";
+        std::cout << "4. Очистить стек\n";
+        std::cout << "5. Выйти\n";
+        std::cout << "Введите ваш выбор: ";
+        std::cin >> choice;
 
         switch (choice) {
         case 1:
-            cout << "Введите число для добавления в стек: ";
-            cin >> value;
+            std::cout << "Введите число для добавления в стек: ";
+            std::cin >> value;
             addElementAndPrintAddress(stack, value);
             break;
         case 2:
@@ -121,10 +114,10 @@ int main() {
             stack.clearStack();
             break;
         case 5:
-            cout << "Выход из программы." << endl;
+            std::cout << "Выход из программы." << std::endl;
             return 0;
         default:
-            cout << "Неверный выбор! Пожалуйста, попробуйте снова." << endl;
+            std::cout << "Неверный выбор! Пожалуйста, попробуйте снова." << std::endl;
         }
     }
 

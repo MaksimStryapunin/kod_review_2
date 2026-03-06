@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\01">
+      <UniqueIdentifier>{1b84fb7f-f1b9-4c3c-ab5b-bef84ff65fa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\02">
+      <UniqueIdentifier>{62fed7f0-255e-4a5c-ab0b-1f30f1f4ecf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\03">
+      <UniqueIdentifier>{f7ffc28c-f9b9-4b93-b1e5-bc421b4d493d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\04">
+      <UniqueIdentifier>{234b1741-5d06-43d0-9b1e-5744a1026cb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\05">
+      <UniqueIdentifier>{5b37e3b0-59e5-4410-9dee-6c76d2a2027f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\06">
+      <UniqueIdentifier>{b453ddc4-05d2-4aef-81c3-0c7330dcac90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\07">
+      <UniqueIdentifier>{c7700d25-2a35-4aab-8444-3af78be1daf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\08">
+      <UniqueIdentifier>{ac373d47-b0fc-4f6a-b204-52e0156f30bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\09">
+      <UniqueIdentifier>{013dea81-f395-4375-9b18-3fbb43b16309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\10">
+      <UniqueIdentifier>{9b7fc99a-c427-4870-8e00-f76fba56115c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\FIX_ME.md">
+      <Filter>Исходные файлы</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\01\Task05.cpp">
+      <Filter>Исходные файлы\01</Filter>
+    </ClCompile>
+    <ClCompile Include="..\01\Task01.cpp">
+      <Filter>Исходные файлы\01</Filter>
+    </ClCompile>
+    <ClCompile Include="..\01\Task02.cpp">
+      <Filter>Исходные файлы\01</Filter>
+    </ClCompile>
+    <ClCompile Include="..\01\Task03.cpp">
+      <Filter>Исходные файлы\01</Filter>
+    </ClCompile>
+    <ClCompile Include="..\01\Task04.cpp">
+      <Filter>Исходные файлы\01</Filter>
+    </ClCompile>
+    <ClCompile Include="..\02\Task01.cpp">
+      <Filter>Исходные файлы\02</Filter>
+    </ClCompile>
+    <ClCompile Include="..\02\Task02.cpp">
+      <Filter>Исходные файлы\02</Filter>
+    </ClCompile>
+    <ClCompile Include="..\02\Task03.cpp">
+      <Filter>Исходные файлы\02</Filter>
+    </ClCompile>
+    <ClCompile Include="..\02\Task04.cpp">
+      <Filter>Исходные файлы\02</Filter>
+    </ClCompile>
+    <ClCompile Include="..\02\Task05.cpp">
+      <Filter>Исходные файлы\02</Filter>
+    </ClCompile>
+    <ClCompile Include="..\03\Task01.cpp">
+      <Filter>Исходные файлы\03</Filter>
+    </ClCompile>
+    <ClCompile Include="..\03\Task02.cpp">
+      <Filter>Исходные файлы\03</Filter>
+    </ClCompile>
+    <ClCompile Include="..\03\Task03.cpp">
+      <Filter>Исходные файлы\03</Filter>
+    </ClCompile>
+    <ClCompile Include="..\03\Task04.cpp">
+      <Filter>Исходные файлы\03</Filter>
+    </ClCompile>
+    <ClCompile Include="..\03\Task05.cpp">
+      <Filter>Исходные файлы\03</Filter>
+    </ClCompile>
+    <ClCompile Include="..\04\Task01.cpp">
+      <Filter>Исходные файлы\04</Filter>
+    </ClCompile>
+    <ClCompile Include="..\04\Task02.cpp">
+      <Filter>Исходные файлы\04</Filter>
+    </ClCompile>
+    <ClCompile Include="..\04\Task03.cpp">
+      <Filter>Исходные файлы\04</Filter>
+    </ClCompile>
+    <ClCompile Include="..\04\Task04.cpp">
+      <Filter>Исходные файлы\04</Filter>
+    </ClCompile>
+    <ClCompile Include="..\04\Task05.cpp">
+      <Filter>Исходные файлы\04</Filter>
+    </ClCompile>
+    <ClCompile Include="..\05\Task01.cpp">
+      <Filter>Исходные файлы\05</Filter>
+    </ClCompile>
+    <ClCompile Include="..\05\Task02.cpp">
+      <Filter>Исходные файлы\05</Filter>
+    </ClCompile>
+    <ClCompile Include="..\05\Task03.cpp">
+      <Filter>Исходные файлы\05</Filter>
+    </ClCompile>
+    <ClCompile Include="..\05\Task04.cpp">
+      <Filter>Исходные файлы\05</Filter>
+    </ClCompile>
+    <ClCompile Include="..\05\Task05.cpp">
+      <Filter>Исходные файлы\05</Filter>
+    </ClCompile>
+    <ClCompile Include="..\06\Task01.cpp">
+      <Filter>Исходные файлы\06</Filter>
+    </ClCompile>
+    <ClCompile Include="..\06\Task02.cpp">
+      <Filter>Исходные файлы\06</Filter>
+    </ClCompile>
+    <ClCompile Include="..\06\Task03.cpp">
+      <Filter>Исходные файлы\06</Filter>
+    </ClCompile>
+    <ClCompile Include="..\06\Task04.cpp">
+      <Filter>Исходные файлы\06</Filter>
+    </ClCompile>
+    <ClCompile Include="..\06\Task05.cpp">
+      <Filter>Исходные файлы\06</Filter>
+    </ClCompile>
+    <ClCompile Include="..\07\Task01.cpp">
+      <Filter>Исходные файлы\07</Filter>
+    </ClCompile>
+    <ClCompile Include="..\07\Task02.cpp">
+      <Filter>Исходные файлы\07</Filter>
+    </ClCompile>
+    <ClCompile Include="..\07\Task03.cpp">
+      <Filter>Исходные файлы\07</Filter>
+    </ClCompile>
+    <ClCompile Include="..\07\Task04.cpp">
+      <Filter>Исходные файлы\07</Filter>
+    </ClCompile>
+    <ClCompile Include="..\07\Task05.cpp">
+      <Filter>Исходные файлы\07</Filter>
+    </ClCompile>
+    <ClCompile Include="..\08\Task01.cpp">
+      <Filter>Исходные файлы\08</Filter>
+    </ClCompile>
+    <ClCompile Include="..\08\Task02.cpp">
+      <Filter>Исходные файлы\08</Filter>
+    </ClCompile>
+    <ClCompile Include="..\08\Task03.cpp">
+      <Filter>Исходные файлы\08</Filter>
+    </ClCompile>
+    <ClCompile Include="..\08\Task04.cpp">
+      <Filter>Исходные файлы\08</Filter>
+    </ClCompile>
+    <ClCompile Include="..\08\Task05.cpp">
+      <Filter>Исходные файлы\08</Filter>
+    </ClCompile>
+    <ClCompile Include="..\09\Task01.cpp">
+      <Filter>Исходные файлы\09</Filter>
+    </ClCompile>
+    <ClCompile Include="..\09\Task02.cpp">
+      <Filter>Исходные файлы\09</Filter>
+    </ClCompile>
+    <ClCompile Include="..\09\Task03.cpp">
+      <Filter>Исходные файлы\09</Filter>
+    </ClCompile>
+    <ClCompile Include="..\09\Task04.cpp">
+      <Filter>Исходные файлы\09</Filter>
+    </ClCompile>
+    <ClCompile Include="..\09\Task05.cpp">
+      <Filter>Исходные файлы\09</Filter>
+    </ClCompile>
+    <ClCompile Include="..\10\Task01.cpp">
+      <Filter>Исходные файлы\10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\10\Task02.cpp">
+      <Filter>Исходные файлы\10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\10\Task03.cpp">
+      <Filter>Исходные файлы\10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\10\Task04.cpp">
+      <Filter>Исходные файлы\10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\10\Task05.cpp">
+      <Filter>Исходные файлы\10</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
